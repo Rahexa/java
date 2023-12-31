@@ -1,6 +1,6 @@
 package array;
 import java.util.Scanner;
-public class sumofdiagoana {
+public class sumofdiagoanal {
 	public static void main(String[] args) {
 		
 		
