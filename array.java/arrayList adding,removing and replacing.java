@@ -37,10 +37,10 @@ System.out.println();
 	//replacing element
 	System.out.println("After replacing a  element\n");
 
-	if(number.size()>1) {
+	
 		
 		number.set(1, 90);
-	}
+	
 	System.out.println(number);
 	
 	}
