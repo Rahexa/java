@@ -1,0 +1,43 @@
+package oop;
+
+public class carob {
+	public static void main(String[] args) {
+		
+	
+	car carob = new car();
+	
+	carob.Brand = "Audi";
+	carob.Model = "Audi01";
+
+	carob.Type = "Hybrid";
+
+	carob.Chessisno = 5059698;
+	carob.displayinformation();
+	System.out.println();
+	
+car carob2 = new car();
+	
+	carob2.Brand = "Toyoto";
+	carob2.Model = "Au1";
+
+	carob2.Type = "Hybrid";
+
+	carob2.Chessisno = 5059699;
+	carob2.displayinformation();
+	System.out.println();
+
+car carob3 = new car();
+	
+	carob3.Brand = "BMW";
+	carob3.Model = "Ai01";
+
+	carob3.Type = "Hybrid";
+
+	carob3.Chessisno = 5059600;
+
+	carob3.displayinformation();
+	System.out.println();
+
+	
+	}
+}
