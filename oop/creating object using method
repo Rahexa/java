@@ -1,0 +1,26 @@
+package oop;
+
+public class test {
+public static void main(String[] args) {
+	
+	Teacher teacher1	= new Teacher();
+	
+	teacher1.Name = "Raihan Sikder";
+	teacher1.Gender = "Male";
+	teacher1.Age = 22;
+	
+	
+teacher1.displayinformation();
+	
+
+Teacher teacher2 = new Teacher();
+teacher2.Name = "Akib Islam";
+teacher2.Gender = "male";
+teacher2.Age = 20;
+
+
+teacher2.displayinformation();
+
+
+}
+}
