@@ -7,7 +7,7 @@ public class carob {
 	car carob = new car();
 	
 	carob.Brand = "Audi";
-	carob.Model = "Audi01";
+	carob.Model = "Adi01";
 
 	carob.Type = "Hybrid";
 
