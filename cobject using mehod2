@@ -1,0 +1,22 @@
+package oop;
+
+public class car {
+	String Brand,Type,Model;
+	int Chessisno;
+	
+	
+	
+	void displayinformation() {
+		System.out.println(Brand);
+		System.out.println(Type);
+
+		System.out.println(Model);
+
+		System.out.println(Chessisno);
+
+		
+		
+		
+	}
+
+}
