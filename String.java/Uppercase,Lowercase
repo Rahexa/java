@@ -1,0 +1,28 @@
+package uppercaselowercasemthod;
+import java.util.Scanner;
+class uppercaselowercasemthod{
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//input 2+2 string for UpperCase and LowerCase;
+		String string1 =  sc.nextLine();
+		String string2 = sc.nextLine();
+		String string3 =  sc.nextLine();
+		String string4 = sc.nextLine();
+		// used method to make UpperCase and LowerCase;
+	     string1 =string1.toLowerCase();
+	     string2 = string2.toLowerCase();
+	     
+	     string3 =string1.toUpperCase();
+	     string4 = string2.toUpperCase();
+	     //printing the result;
+	     System.out.println(string1);
+	     System.out.println(string2);
+	     System.out.println(string3);
+	     System.out.println(string4);
+
+
+		
+		
+	}
+}
