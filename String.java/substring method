@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        System.out.println();
+        Scanner sc = new Scanner(System.in);
+        String string1 = sc.nextLine();
+
+        char firstLetter = string1.charAt(0);
+       String cap = Character.toUpperCase(firstLetter)+string1.substring(1);
+
+        System.out.println(cap);
+
+        sc.close();
+    }
+}
