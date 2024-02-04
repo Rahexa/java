@@ -1,0 +1,7 @@
+using break in this context would serve the same purpose as return. Both break and return can be used to exit a loop early, but they have different implications:
+
+break: Terminates the loop immediately, and the program continues with the next statement after the loop.
+
+return: Exits the entire method (in this case, the main method) prematurely. If there were more statements after the loop, they would be skipped.
+
+In your specific situation, where you want to stop further processing if a letter is not found, both break and return would achieve the desired outcome. Using return is fine here because it immediately exits the main method, and in this context, there are no further statements to execute
