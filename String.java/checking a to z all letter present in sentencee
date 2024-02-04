@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read the integer
+        System.out.println();
+        int n = sc.nextInt();
+        sc.nextLine(); // Consume the newline character
+
+        // Read the string
+        String input = sc.nextLine();
+        input = input.toLowerCase();
+
+        for (char i = 'a'; i <= 'z'; i++) {
+            if (!input.contains(String.valueOf(i))) {
+                System.out.println("NO");
+                return;
+             
+            }
+        }
+        
+            System.out.println("YES");
+             
+    }
+}
+
+
