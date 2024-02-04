@@ -1,0 +1,39 @@
+package stringcf;
+import java.util.Scanner;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+    	Scanner sc = new Scanner(System.in);
+        System.out.println();
+    	String input = sc.nextLine();
+    	
+    	char[] c = input.toCharArray();
+    	int Uppercase = 0;
+    	int lowercase = 0;
+    	
+    	
+    	for(char x : c) {
+    		
+if(Character.isUpperCase(x)) {
+	
+	Uppercase++;
+	
+	
+}   		
+else {
+	
+	lowercase++;
+}		
+    	}
+          
+    	
+    	System.out.println(Uppercase);
+    	System.out.println(lowercase);
+
+    	
+    	
+    }
+}
+
