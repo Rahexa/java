@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class cf {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        sc.nextLine();  // Consume the newline character after the number
+
+        System.out.print("Enter a string: ");
+        String input = sc.nextLine();
+
+        // Check if the input string contains any vowels (a, e, i, o, u)
+        if (input.contains("a") || input.contains("e") || input.contains("i") ||
+            input.contains("o") || input.contains("u")) {
+            System.out.println("The input contains at least one vowel.");
+        } else {
+            System.out.println("The input does not contain any vowel.");
+        }
+
+        sc.close();
+    }
+}
