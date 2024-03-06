@@ -14,7 +14,7 @@ public class Car {
 	 chessis = c;
 	 Brand = B;
 	 Type = T;
-	 // here car used Car as  nstead of method.method has no return type should be declare same as Class 
+	 // here car used Car as  nstead of method.method has no return type should be declare same as Class .
 	 
  }
  
