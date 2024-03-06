@@ -1,0 +1,32 @@
+package oop;
+
+public class Car {
+	
+	int model;
+	int chessis;
+	String Brand;
+	String Type;
+	
+ Car (int m,int c,String B,String T){
+	 
+	 
+	 model = m;
+	 chessis = c;
+	 Brand = B;
+	 Type = T;
+	 // here car used Car as  nstead of method.method has no return type should be declare same as Class 
+	 
+ }
+ 
+ 
+ 
+	void displayinformation() {
+		
+		System.out.println(Brand);
+		System.out.println(model);
+		System.out.println(chessis);
+		System.out.println(Type);
+
+	}
+
+}
