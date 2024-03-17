@@ -1,0 +1,21 @@
+package oop;
+
+public class student1 {
+	public static void main(String[] args) {
+		
+		studnet student1 = new studnet();
+		studnet student2 = new studnet("Rahi",20);
+		student2.displayinformation();
+
+		studnet student3 = new studnet("Rakib",20,522);
+
+		
+		student3.displayinformation();
+		
+		
+		
+		
+		
+	}
+
+}
