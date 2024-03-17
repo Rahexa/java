@@ -7,7 +7,7 @@ public class studnet {
 
 	studnet(){
 		System.out.println("no information");
-	}
+	}//default constructor.without parameter
 	
 
 	studnet(String n,int a){
@@ -22,8 +22,7 @@ public class studnet {
 		age = a;	
 		roll = r;
 		
-	}
-	
+	}//parameterised constructor
 	void displayinformation() {
 		
 		System.out.println("Name ="+name);
@@ -34,7 +33,7 @@ public class studnet {
 		
 		
 		
-	}
+	}//parameterised constructor
 	
 	
 	
