@@ -1,0 +1,52 @@
+package oop;
+
+public class studnet {
+	String name;
+	int age;
+	int roll;
+
+	studnet(){
+		System.out.println("no information");
+	}
+	
+
+	studnet(String n,int a){
+		
+	name = n;
+	age = a;
+		
+	}
+
+	studnet(String n,int a,int r){
+		name = n;
+		age = a;	
+		roll = r;
+		
+	}
+	
+	void displayinformation() {
+		
+		System.out.println("Name ="+name);
+		System.out.println("age ="+age);
+		System.out.println("roll ="+roll);
+
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
